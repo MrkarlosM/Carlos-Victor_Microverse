@@ -14,13 +14,13 @@
   <p id="description">This is a tiny survey to know if you like videogames</p>
   <form id="survey-form">
     <label for="name" id="name-label">Your name:</label><br>
-    <input type="text" id="name" name="name" placeholder="Jhon Jhonson"><br>
+    <input type="text" id="name" name="name" placeholder="Jhon Jhonson" required><br>
 
     <label for="email" id="email-label">Your e-mail:</label><br>
-    <input type="email" id="email" name="email" placeholder="youremail@email.com"><br>
+    <input type="email" id="email" name="email" placeholder="youremail@email.com" required><br>
 
     <label for="number" id="number-label">Your number:</label><br>
-    <input type="number" id="number" name="number" placeholder="0 , 1, 2 , 3... 10" min="0" max="10"><br>
+    <input type="number" id="number" name="number" placeholder="0 , 1, 2 , 3... 10" min="0" max="10" required><br>
 
     <label for="dropdown">Choose a car:</label>
 
@@ -33,16 +33,16 @@
 
     <label for="selecting">Please select a platform:</label><br>
 
-    <input type="radio" name="selecting">PC<br>
-    <input type="radio" name="selecting">PS<br>
-    <input type="radio" name="selecting">Xbox<br>
-    <input type="radio" name="selecting">Nintendo<br>
+    <input type="radio" name="selecting" value="1_">PC<br>
+    <input type="radio" name="selecting" value="2_">PS<br>
+    <input type="radio" name="selecting" value="3_">Xbox<br>
+    <input type="radio" name="selecting" value="4_">Nintendo<br>
 
     <label for="checking">Please check if you have more than one:</label><br>
-    <input type="checkbox" name="checking">PC<br>
-    <input type="checkbox" name="checking">PS<br>
-    <input type="checkbox" name="checking">Xbox<br>
-    <input type="checkbox" name="checking">Nintendo<br>
+    <input type="checkbox" name="checking" value="1">PC<br>
+    <input type="checkbox" name="checking" value="2">PS<br>
+    <input type="checkbox" name="checking" value="3">Xbox<br>
+    <input type="checkbox" name="checking" value="4">Nintendo<br>
 
     <label for="textarea">Aditional comments:</label><br>
     <textarea id="textarea" name="textarea">
